@@ -1,0 +1,112 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+button, input, select, textarea {
+    background: #222;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+
+button:hover, input:focus, select:focus, textarea:focus {
+    background: #333;
+    border-color: #888;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+ul, ol {
+    margin: 0 0 10px 20px;
+}
+
+code {
+    background: #333;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+pre {
+    background: #222;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background: #333;
+}
+
+tr:hover {
+    background: #222;
+}
+
+th {
+    user-select: none;
+}
+
+@media (max-width: 600px) {
+    .App {
+        padding: 10px;
+    }
+
+    button, input, select, textarea {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
